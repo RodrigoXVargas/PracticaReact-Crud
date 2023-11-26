@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 10%, rgba(0, 212, 255, 1) 50%, rgba(9, 9, 121, 1) 90%, rgba(2, 0, 36, 1) 100%);
+}
+
+/*
+Estilos de Navbar para aplicar en nav1.tsx
+*/
+.Nav {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 10%, rgba(0, 212, 255, 1) 50%, rgba(9, 9, 121, 1) 90%, rgba(2, 0, 36, 1) 100%);
+  width: 100%;
+  
+}
+
+.Nav-nav {
+  margin-bottom: 0px;
+  
+}
+
+.nav-div-content {
+  display: grid;
+  justify-content: center;
+}
+
+.nav-div-content-ul {
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+}
+
+.ul-nav__item {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.ul-nav__item a {
+  padding: 2px 5px;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid #000;
+  border-radius: 10%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  
+}
+
+.ul-nav__item a:hover {
+  background-color: #000;
+  color: white;
+  padding: 5px 20px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+/* fin estilos de navbar */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  background-color: transparent;
+  padding: 2px;
+}
+
+.grid-item {
+
+
+  padding: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.boton {
+  width: 115px;
+  border-radius: 20px;
+}
+
+.boton:hover {
+  background-color: #000;
+  color: #FFF;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+img {
+  height: 50px;
+}
+
+.container-Form {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.form-crud {
+
+  display: grid;
+  justify-content: center;
+  grid-column: 2 / span 1;
+}
+
+.input-Crud {
+  text-align: center;
+  border-radius: 20px;
+}
+
+.label-Crud {
+  text-align: center;
+
+}
+
+.form-crud .btn {
+  margin-top: 15px;
+}
