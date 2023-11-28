@@ -9,6 +9,7 @@ import FormCrud from './vistas/FormCrud.tsx'
 import Details from './vistas/Details.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
   <BrowserRouter basename='/'>
     <Navbar />
     <Routes>
@@ -16,11 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Route path='/crud' element={<Crud />} />
       <Route path='/crud/:id' element={<FormCrud />} />
       <Route path='/details/:id' element={<Details />} />
-
-
-
     </Routes>
-
   </BrowserRouter>
-
+  </React.StrictMode>
 )
